@@ -1,0 +1,68 @@
+
+.body1{
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 1600px;
+    position: relative;
+    opacity: 0.9;
+    border-radius: 25px;
+    box-shadow: 2px 4px 8px 2px;
+    position:relative;
+    backdrop-filter
+}
+
+.input {
+    background-color: whitesmoke;
+    max-width: 190px;
+    height: 20px;
+    padding: 10px;
+    /* text-align: center; */
+    border: 2px solid white;
+    border-radius: 5px;
+    position:absolute;
+    margin-top: -600px;
+    margin-left: 500px;
+    /* box-shadow: 3px 3px 2px rgb(249, 255, 85); */
+  }
+  
+  .input:focus {
+    color: rgb(0, 255, 255);
+    background-color: whitesmoke;
+    outline-color: rgb(0, 255, 255);
+    box-shadow: -3px -3px 15px rgb(0, 255, 255);
+    transition: .1s;
+    transition-property: box-shadow;
+  }
+
+.card2{
+    position: absolute;
+    top:250px;
+    left: 500px;
+}
+
+.card3{
+    position: absolute;
+    top:520px;
+    left: 570px;
+}
+
+p{
+    font-size: 30px;
+    color: white;
+    font-family: STXihei;
+}
+
+button{
+    background-color:#f66f6a;
+    color:white;
+    width: 45px;
+    height: 35px;
+    border:0;
+    font-size: 16px;
+    box-sizing: content-box;				
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #a54b4a;
+}
